@@ -11,14 +11,14 @@ function introductionWithLanguage(name, language) {
 introductionWithLanguage("Aki", "Ember.js");
 introductionWithLanguage("Samip", "React");
 
-function introductionWithLanguageOptional(name, language="Javascript") {
+function introductionWithLanguageOptional(name, language="JavaScript") {
     console.log(`Hi, my name is ${name} and I am learning to program in ${language}.`);
     return `Hi, my name is ${name} and I am learning to program in ${language}.`;
 }
 
 introductionWithLanguageOptional("Gracie");
 
-function introductionWithLanguageOptional(name, language="Javascript") {
+function introductionWithLanguageOptional(name, language="JavaScript") {
     console.log(`Hi, my name is ${name} and I am learning to program in ${language}.`);
     return `Hi, my name is ${name} and I am learning to program in ${language}.`;
 }
